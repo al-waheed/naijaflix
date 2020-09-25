@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/* 1rem = 10px,10px/16px = 62.5% */
+html{
+  font-size: 62.5%; 
+}
+
+body{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+  color: white; 
+  background-color: black; 
+}
+
+#container{
+  min-height:100vh;
+  width: 100%;
+}
+
+ /* heading styling */
+.img {
+  background-image: url(/image/background.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: top,center;
+  background-size: cover;
+  border-bottom: 5px solid #999;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 1.3rem;
+  display: inline-block;
+}
+
+.main-heading p{
+  margin-bottom: 1rem;
+}
+.main-heading h1{
+  margin-bottom: 1rem;
+}
+.main-heading h3{
+  margin-bottom: 1rem;
+}
+
+.input-box{
+  margin-bottom: 1rem;
+}
+
+.input-box{
+  display: inline-block;
+   width: 35rem;
+   padding: 1rem 0 1rem .6rem;
+   outline: none;
+   border: 1px solid whitesmoke;
+}
+
+.btn-cta{
+  padding: 1rem 1rem ;
+  color: white;
+  background-color: red;
+  outline: none;
+   border: none;
+   font-size: 15px;
+}
+
+.btn-cta:hover{
+  background-color: rgb(153, 22, 22);
+}
+
+/* heading styling end*/
+
+/* hollywood styling */
+
+#hollywood .container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 5px solid #999;
+}
+
+.hollywood-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.hollywood-main h1{
+ font-size: 3rem;
+ margin-bottom: 5px;
+}
+
+.hollywood-main p{
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.hollywood-img h3{
+  margin-top: 10px;
+}
+
+.hollywood-film{
+  width: 30rem;
+  height: 20rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px 0 #999;
+  transition: .3s ease box-shadow;
+}
+
+.hollywood-film2{
+  width: 15rem;
+  height: 10rem;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  box-shadow: 0px 0px 18px 0 #999;
+  transition: .3s ease box-shadow;
+}
+
+.hollywood-film:hover{
+  box-shadow: 0px 0px 5px 0 #999;
+}
+
+.hollywood-film2:hover{
+  box-shadow: 0px 0px 5px 0 #999;
+}
+.btn{
+  margin-top: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover{
+  background-color:  rgb(153, 22, 22);
+}
+
+/* hollywood styling end*/
