@@ -5,7 +5,9 @@ import './index.css';
 
 function App () {
   return (
+
     <div id ="container">
+
      <section className="img">
       <div className="heading">
         <div className="main-heading">
