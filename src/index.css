@@ -2,7 +2,6 @@
   margin: 0;
   padding:0;
 }
-
 *,
 *::before,
 *::after{
@@ -26,14 +25,14 @@ body{
   width: 100%;
 }
 
- /* heading styling */
+ /* App styling */
 .img {
   background-image: url(/image/background.jpg);
   width: 100%;
   height: 100vh;
   background-position: top,center;
   background-size: cover;
-  border-bottom: 5px solid #999;
+  border-bottom: 3px solid #999;
 }
 
 .heading{
@@ -54,6 +53,7 @@ body{
   margin-bottom: 1rem;
 }
 .main-heading h1{
+  font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 .main-heading h3{
@@ -77,15 +77,46 @@ body{
   color: white;
   background-color: red;
   outline: none;
-   border: none;
-   font-size: 15px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .btn-cta:hover{
   background-color: rgb(153, 22, 22);
 }
 
-/* heading styling end*/
+/* App styling end*/
+
+/* About styling */
+  
+  .about{
+    max-width: 1200px;
+    padding: 40px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #999;
+  }
+
+   .about-heading h1{
+    font-size: 3rem;
+    margin-bottom: 5px;
+   }
+
+   .about-heading span{
+      color: red;
+   }
+   .about-mainbody p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: .02rem;
+ }
+
+/* About styling end*/
 
 /* hollywood styling */
 
@@ -97,7 +128,7 @@ body{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  border-bottom: 5px solid #999;
+  border-bottom: 3px solid #999;
 }
 
 .hollywood-info{
@@ -160,3 +191,23 @@ body{
 }
 
 /* hollywood styling end*/
+
+ /* footer styling */
+
+ .footer{
+   text-align: center;
+   background-color:  #999;
+   padding: 1rem;
+ }
+
+ .footer h4{
+   font-size: 1.3rem;
+   color: black;
+ }
+
+ .footer span{
+   font-size: 1.5rem;
+   color: red;
+}
+
+  /* footer styling */

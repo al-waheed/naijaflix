@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hollywood = props => {
+const Nollywood = props => {
   return(
       <div>
           <section id="hollywood">
@@ -26,4 +26,4 @@ const Hollywood = props => {
       </div>
   )
 }
-export default Hollywood; 
+export default Nollywood; 

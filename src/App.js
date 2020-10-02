@@ -1,5 +1,6 @@
-import React from 'react';
-import Hollywood from './Hollywood';
+import React  from 'react'; 
+import Components from './Components'
+import Footer from './Footer'
 import './index.css';
 
 function App () {
@@ -18,10 +19,8 @@ function App () {
         </div>
        </div>
       </section>
-      <Hollywood heading="Watch on TV." pics="/image/advet1.jpg" title="HOMEFRONT"/>
-      <Hollywood  heading="Download for free." pics="/image/advet2.jpg" title="BATMAN"/>
-      <Hollywood  heading="For Every home." pics="/image/advet3.jpg" title="BATTLEFIELD2"/>
-      <Hollywood  heading="Download for free." pics="/image/advet4.jpg" title="ASSASSINCREED"/>
+      <Components/>
+      <Footer/>
     </div>
   );
 }
