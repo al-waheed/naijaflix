@@ -15,8 +15,12 @@ function App () {
         <h3>Watch anywhere. Free download</h3>
         <p>Ready to download? Enter your email to create or restart your membership</p>
         <div className="main-input">
+          <div>
         <input type="text" placeholder="Email address" className="input-box" />
+          </div>
+        <div >
         <input type="button" className="btn-cta" value="GET STARTED &gt;" />
+        </div>
         </div>
         </div>
        </div>
